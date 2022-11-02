@@ -102,17 +102,25 @@ img {
 }
 
 .link:hover,
-.contact:hover {
+.contact:hover,
+.envelope:hover {
 	color: var(--hover-focus-logo-color);
 }
 
 .link:focus,
-.contact:focus {
+.contact:focus,
+.envelope:focus {
 	color: var(--hover-focus-logo-color);
 }
 
 .contact {
 	color: #757575;
+}
+
+.envelope {
+	width: 16px;
+	height: 12px;
+	fill: #757575;
 }
 
 /* ГОРИЗОНТАЛЬНЕ ПОЗИЦІЮВАННЯ */
